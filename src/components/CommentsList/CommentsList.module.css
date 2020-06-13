@@ -1,0 +1,44 @@
+
+.list{
+  width: 100%;
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+}
+
+
+.name{
+  font-size: 16px;
+  margin-right: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dateTime {
+  font-size: 14px;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.deleteBtn{
+  border:none;
+  color: red;
+  cursor: pointer;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+.text{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  margin-top: 60px;
+}
